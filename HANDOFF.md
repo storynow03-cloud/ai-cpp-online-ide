@@ -7,16 +7,16 @@
 
 ## 📌 目前現況摘要 (Last Updated: 2026-11-02)
 
-- **專案狀態**：專案初始化與規範正規化完成（Stage 0 -> Stage 1）
-- **Git 狀態**：本地初始化完成，初始基礎規範設定完畢
+- **專案狀態**：專案初始化與規範正規化完成，遠端 GitHub 儲存庫已連線並同步
+- **Git 狀態**：已同步至遠端 `https://github.com/storynow03-cloud/ai-cpp-online-ide.git` (main 分支)
 - **服務/Process**：尚未啟動任何常駐服務（處於規格與架構規劃階段）
 - **資安檢核**：`.gitignore` 與 `.env.example` 設置完畢，無硬編碼金鑰，環境安全
 - **當前核心目標**：完成 C++ 線上 IDE 的技術架構評估與規格制定（/spec 與 /plan）
 - **帳號綁定規範**：全專案（GitHub, Vercel, Supabase）統一指定使用 `storynow03` (`storynow03@gmail.com`) 帳戶操作
-  - GitHub CLI：✅ 已切換為作用中帳戶 `storynow03-cloud`
+  - GitHub CLI：✅ 作用中帳戶 `storynow03-cloud`，已建立遠端 Repo
   - 本地 Git：✅ 已設定 `user.name = "storynow03-cloud"`、`user.email = "storynow03@gmail.com"`
-  - Vercel CLI：✅ 已成功切換為作用中帳戶 `storynow03-cloud`
-  - Supabase CLI：✅ 已成功授權登入（帳號：`storynow03@gmail.com`，已成功連線）
+  - Vercel CLI：✅ 作用中帳戶 `storynow03-cloud`
+  - Supabase CLI：✅ 作用中帳戶 `storynow03@gmail.com`（已對 CAP-review 執行暫停作業）
 
 ---
 
@@ -37,6 +37,15 @@
 ---
 
 ## 📝 進度日誌 (Shift Log)
+
+### 2026-11-02（GitHub 遠端儲存庫建立與 Supabase 暫停操作驗證）
+- **做了什麼**：
+  - 使用 `storynow03-cloud` 成功建立 GitHub 遠端儲存庫：[`ai-cpp-online-ide`](https://github.com/storynow03-cloud/ai-cpp-online-ide)。
+  - 將本地標準正規化架構與日誌推送至 GitHub `main` 分支。
+  - 使用 Supabase Management API 成功將專案 `CAP-review` 發起暫停（狀態切換為 `PAUSING`）。
+- **驗證成果**：
+  - GitHub remote 與 push 正常。
+  - Supabase CLI 專案管理 API 呼叫正常。
 
 ### 2026-11-02（三大雲端環境 storynow03 全數完成就緒）
 - **做了什麼**：
