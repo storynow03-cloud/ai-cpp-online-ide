@@ -15,8 +15,8 @@
 - **帳號綁定規範**：全專案（GitHub, Vercel, Supabase）統一指定使用 `storynow03` (`storynow03@gmail.com`) 帳戶操作
   - GitHub CLI：✅ 已切換為作用中帳戶 `storynow03-cloud`
   - 本地 Git：✅ 已設定 `user.name = "storynow03-cloud"`、`user.email = "storynow03@gmail.com"`
-  - Vercel CLI：待登入 `storynow03@gmail.com`
-  - Supabase CLI：待登入 `storynow03@gmail.com`
+  - Vercel CLI：✅ 已成功切換為作用中帳戶 `storynow03-cloud`
+  - Supabase CLI：✅ 已成功授權登入（帳號：`storynow03@gmail.com`，已成功連線）
 
 ---
 
@@ -37,6 +37,12 @@
 ---
 
 ## 📝 進度日誌 (Shift Log)
+
+### 2026-11-02（三大雲端環境 storynow03 全數完成就緒）
+- **做了什麼**：
+  - 驗證 GitHub CLI、Vercel CLI、Supabase CLI 均已成功切換並授權至 `storynow03`。
+  - Supabase 成功讀取 `storynow03` 專案清單（CAP / CAP-review），API 連線正常。
+  - 全專案準備進入實作階段。
 
 ### 2026-11-02（帳號全面切換至 storynow03@gmail.com）
 - **做了什麼**：
