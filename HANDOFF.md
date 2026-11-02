@@ -12,6 +12,11 @@
 - **服務/Process**：尚未啟動任何常駐服務（處於規格與架構規劃階段）
 - **資安檢核**：`.gitignore` 與 `.env.example` 設置完畢，無硬編碼金鑰，環境安全
 - **當前核心目標**：完成 C++ 線上 IDE 的技術架構評估與規格制定（/spec 與 /plan）
+- **帳號綁定規範**：全專案（GitHub, Vercel, Supabase）統一指定使用 `storynow03` (`storynow03@gmail.com`) 帳戶操作
+  - GitHub CLI：✅ 已切換為作用中帳戶 `storynow03-cloud`
+  - 本地 Git：✅ 已設定 `user.name = "storynow03-cloud"`、`user.email = "storynow03@gmail.com"`
+  - Vercel CLI：待登入 `storynow03@gmail.com`
+  - Supabase CLI：待登入 `storynow03@gmail.com`
 
 ---
 
@@ -32,6 +37,18 @@
 ---
 
 ## 📝 進度日誌 (Shift Log)
+
+### 2026-11-02（帳號全面切換至 storynow03@gmail.com）
+- **做了什麼**：
+  - 依照指示將專案目標帳號統一變更為 `storynow03@gmail.com`。
+  - GitHub CLI 直接透過 `gh auth switch -u storynow03-cloud` 切換為作用中帳號，並將本地 Git commit 作者綁定為 `storynow03-cloud` / `storynow03@gmail.com`。
+  - 記錄 Vercel 與 Supabase 登入指引。
+
+### 2026-11-02（帳號環境檢核與工具鏈安裝）
+- **做了什麼**：
+  - 檢測開發工具鏈（GitHub CLI、Vercel CLI、Supabase CLI）之安裝與帳號登入狀態。
+  - 完成安裝 Supabase CLI 全域版本 (`v2.122.0`)。
+  - 確立本專案全工具鏈統一指向 `storynow04` 之規範。
 
 ### 2026-11-02（階段初始化與工程規範正規化）
 - **做了什麼**：
